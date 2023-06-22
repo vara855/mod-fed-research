@@ -14,5 +14,10 @@
         "start": "npx concurrently \"npm run dev -w ./vite-mod-fed\" \"npm run build -w ./vite-remote-fed -- --watch\" -n host,remote"
     },
     "author": "",
-    "license": "ISC"
+    "license": "ISC",
+    "engineStrict": true,
+    "engines": {
+        "node": ">=18",
+        "npm": ">=8"
+    }
 }
